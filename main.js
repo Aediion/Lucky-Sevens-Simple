@@ -1,9 +1,6 @@
 
 const getDie = () => Math.floor(Math.random() * 6) + 1;
 
-"use strict"; 
-
-
 function sum(iterable) {
     let total = 0;
     for (const value of iterable) total += value;
